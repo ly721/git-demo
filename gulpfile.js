@@ -51,10 +51,11 @@ gulp.task('html',function(){
 
 var browserSync = require('browser-sync');
 gulp.task('serve',function(){
-	browserSync({server: true}, function(err, bs) {
+	browserSync({server: true, function(err, bs) {
 	    console.log(bs.options.getIn(["urls", "local"]));
-	});
+	    });
 	//访问的是网站根目录
+   });
 });
 
 var watch = require('gulp-watch');

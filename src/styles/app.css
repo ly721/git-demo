@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/03-icon.jpg);
+  background-image: url(../images/03-icon.jpg) no-repeat;
   height: 100px;
 }
 body div {
