@@ -1,0 +1,16 @@
+body {
+  background-image: url(../images/03-icon.jpg);
+  height: 100px;
+}
+body div {
+  height: 200px;
+  width: 200px;
+}
+body h1 {
+  color: red;
+}
+body div {
+  height: 200px;
+  width: 200px;
+  background-color: #ccc;
+}
